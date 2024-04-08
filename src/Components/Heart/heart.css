@@ -1,0 +1,41 @@
+.heart-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart {
+  /* width: 215px; */
+  width: 60%;
+  fill: #a60000;
+  opacity: 0.5;
+  position: relative;
+  z-index: 10;
+  top: 40vh;
+  left: 20%;
+  animation: heartAnimation 2.5s ease-in forwards;
+}
+
+.blast {
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+}
+
+@keyframes heartAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(2) translateY(20vh);
+    -webkit-transform: scale(2) translateY(20vh);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(-21vh);
+    -webkit-transform: scale(1) translateY(-21vh);
+  }
+}
