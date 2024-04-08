@@ -34,14 +34,14 @@
 .text-continair .sc-bwzfXH {
   display: inline-block;
   font-size: 1.5em;
-  font-weight: 900;
+  font-weight: 200;
   /* font-family: "Licorice", cursive; */
   font-family: "Galada", cursive;
   font-style: normal;
   text-align: center;
   /* color: #ff1744; */
-  color: #ec407a;
-  text-shadow: 2px 2px 7px #90caf9;
+  color: rgb(17 255 154);
+  text-shadow: 2px 2px 7px #000000;
 
   /* background: #ff1744;
   background: linear-gradient(to bottom, #ff1744 37%, #f48fb1 100%);
